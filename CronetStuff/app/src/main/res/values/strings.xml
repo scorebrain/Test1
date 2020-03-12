@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CronetStuff</string>
+
+    <string name="storage_permission_denied">Permission to access storage was denied</string>
+    <string name="load_images">LOAD</string>
+    <string name="stream">stream</string>
+    <string name="images_activity">Loading Images</string>
+    <string name="welcome_activity">Cronet Demo Sample</string>
+    <string name="welcome_introduction_text">Welcome to the Cronet Demo Sample. Use this demo to find out how long it takes loading images with Cronet.</string>
+    <string name="cronet_load_images_text">Load Images with Cronet</string>
+    <string name="toolbar_title">Loading Images</string>
+    <string name="images_loaded">Images loaded with Cronet in %1$d nanoseconds</string>
+    <string name="welcome_toolbar">Why not named?</string>
+
+</resources>
