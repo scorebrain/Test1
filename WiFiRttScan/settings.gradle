@@ -1,0 +1,2 @@
+rootProject.name='WiFiRttScan'
+include ':app'
