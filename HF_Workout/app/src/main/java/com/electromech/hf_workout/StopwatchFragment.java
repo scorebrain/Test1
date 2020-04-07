@@ -11,10 +11,6 @@ import android.widget.TextView;
 
 import java.util.Locale;
 
-
-/**
- * A simple {@link Fragment} subclass.
- */
 public class StopwatchFragment extends Fragment implements View.OnClickListener {
     //Number of seconds displayed on the stopwatch
     private int seconds = 0;
@@ -95,6 +91,7 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
 
     private void runTimer(View view) {
         final TextView timeView = (TextView) view.findViewById(R.id.time_view);
+        final TextView secondsView = (TextView) view.findViewById(R.id.seconds_view);
         final Handler handler = new Handler();
         handler.post(new Runnable() {
             @Override
@@ -105,6 +102,7 @@ public class StopwatchFragment extends Fragment implements View.OnClickListener 
                 String time = String.format(Locale.getDefault(),
                         "%d:%02d:%02d", hours, minutes, secs);
                 timeView.setText(time);
+                secondsView.setText(seconds + " seconds");
                 if(running) {
                     seconds++;
                 }
