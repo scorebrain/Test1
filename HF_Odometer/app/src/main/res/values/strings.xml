@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HF_Odometer</string>
+    <string name="permission_denied">Location permission required</string>
+</resources>
